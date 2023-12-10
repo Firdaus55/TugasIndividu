@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ebike" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorControlNormal">@color/white</item>
+
+
+    </style>
+
+    <style name="Theme.Ebike" parent="Base.Theme.Ebike" />
+
+    <style name="TextAppearanceToolbar" parent="android:TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?attr/colorControlNormal</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="Base.Theme.Ebike">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+</resources>
